@@ -30,3 +30,5 @@ fields:
   type: boolean
   label: draft
   default: true
+pages:
+- content/hers/samplePost.md
