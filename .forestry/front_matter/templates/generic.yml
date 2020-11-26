@@ -26,5 +26,3 @@ fields:
   config:
     required: false
   label: template
-pages:
-- content/post-1.md

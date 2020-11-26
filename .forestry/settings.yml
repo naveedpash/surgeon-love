@@ -6,12 +6,12 @@ webhook_url:
 sections:
 - type: directory
   path: content/his
-  label: His
+  label: Naveed
   create: all
   match: "**/*"
 - type: directory
   path: content/hers
-  label: Hers
+  label: Atiya
   create: all
   match: "**/*"
 upload_dir: uploads
