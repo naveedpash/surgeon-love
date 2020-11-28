@@ -17,14 +17,15 @@ fields:
       format: markdown
   label: description
 - name: date
-  type: text
+  type: datetime
+  label: date
+  description: ''
   config:
     required: false
-  label: date
-- name: draft
-  type: boolean
-  label: draft
-  default: true
+    date_format: ''
+    time_format: 
+    display_utc: false
+    export_format: YYYY-MM-DD
 pages:
 - content/hers/bad-ass-post.md
 - content/his/test.md
