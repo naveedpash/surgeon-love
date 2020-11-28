@@ -26,5 +26,4 @@ fields:
   label: draft
   default: true
 pages:
-- content/hers/samplePost.md
 - content/his/test.md
