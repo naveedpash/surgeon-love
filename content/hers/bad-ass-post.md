@@ -1,5 +1,5 @@
 +++
-date = "2020-1129"
+date = "2020-11-29"
 description = "bad ass post description"
 draft = true
 title = "bad ass post"
