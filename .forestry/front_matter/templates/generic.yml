@@ -26,4 +26,5 @@ fields:
   label: draft
   default: true
 pages:
+- content/hers/bad-ass-post.md
 - content/his/test.md
