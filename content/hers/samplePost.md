@@ -1,9 +1,9 @@
 ---
-draft: true
 title: ''
 description: ''
 date: ''
 template: ''
+draft: true
 
 ---
 this is a sample post
@@ -12,7 +12,7 @@ this is a sample post
 
 > I really like sample posts
 
-# this is a heading
+# this is  a heading
 
 ## subheading
 
