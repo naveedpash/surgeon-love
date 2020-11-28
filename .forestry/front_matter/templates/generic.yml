@@ -21,11 +21,6 @@ fields:
   config:
     required: false
   label: date
-- name: template
-  type: text
-  config:
-    required: false
-  label: template
 - name: draft
   type: boolean
   label: draft
