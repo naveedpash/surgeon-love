@@ -1,55 +1,43 @@
-<!-- forestryio: ignore; forestryio: admin -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="robots" content="noindex" />
-    <title>Admin</title>
-    <meta name="description" content=" " />
-    <meta name="author" content=" " />
-    <meta name="HandheldFriendly" content="true" />
-    <meta name="MobileOptimized" content="320" />
-    <!-- Use maximum-scale and user-scalable at your own risk. It disables pinch/zoom. Think about usability/accessibility before including.-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
-    <!-- Google font -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-
-    <!-- Fort awesome icon kit -->
-    <script src="https://use.fortawesome.com/b6f38602.js"></script>
-
-</head>
-<body>
-<div id="app">
-
-</div>
-<script id="admin-config-script" type="text/javascript">
-  var env = {
-      siteId: "ot7yk3ihq7brww",
-      local: false
-  };
-
-  function uuidv4() {
-    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
-      var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
-      return v.toString(16);
-    });
-  }
-
-  var uuid = uuidv4()
-  var script = document.createElement('script');
-  script.src = "https://app.forestry.io/admin/forestry.min.js?hash=" + uuid
-  script.id = "forestry-admin";
-  document.body.appendChild(script);
-
-  var link = document.createElement("link");
-  link.type = "text/css";
-  link.rel = "stylesheet";
-  link.href = "https://app.forestry.io/admin/main.css?hash=" + uuid
-  document.head.appendChild(link);
-
-</script>
-
-</body>
+<html>
+    <head>
+        <title>Zola</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Welcome to Zola!</h1>
+            <p>
+                You're seeing this page because we couldn't find a template to render.
+            </p>
+            <p>
+                To modify this page, create a <b>index.html</b> file in the templates directory or
+                <a href="https://www.getzola.org/documentation/themes/installing-and-using-themes/" target="_blank">install a theme</a>.
+                <br>
+                You can find what variables are available in this template in the <a href="https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;templates&#x2F;pages-sections&#x2F;#section-variables" target="_blank">documentation</a>.
+            </p>
+        </div>
+        <footer>
+            <a href="https://www.getzola.org/documentation/getting-started/cli-usage/" target="_blank">Get started with Zola</a>
+        </footer>
+        <style>
+            html {
+                line-height: 1.5;
+            }
+            h1 {
+                margin-bottom: 2rem;
+            }
+            .container {
+                font-family: "sans-serif";
+                text-align: center;
+                margin-top: 20vh;
+                padding: 2rem;
+                background: #e9e9e9;
+            }
+            footer {
+                position: fixed;
+                width: 100%;
+                bottom: 1rem;
+                text-align: center;
+            }
+        </style>
+    </body>
 </html>

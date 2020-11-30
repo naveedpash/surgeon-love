@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://surgeon-love.web.app/sitemap.xml
